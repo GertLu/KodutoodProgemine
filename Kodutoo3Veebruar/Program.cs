@@ -21,6 +21,7 @@ namespace Kodutoo3Veebruar
             {
                 var services = scope.ServiceProvider;
 
+
                 try
                 {
                     SeedData.Initialize(services);
